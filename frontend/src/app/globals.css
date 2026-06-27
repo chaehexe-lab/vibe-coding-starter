@@ -136,6 +136,10 @@ body {
   text-wrap: balance;
 }
 
+.hero-character {
+  animation: badge-glide 6s ease-in-out infinite;
+}
+
 .hero-gradient {
   background: linear-gradient(135deg, #b7eaf6 0%, #d2fae5 42%, #fae9ff 100%);
   background-size: 180% 180%;
@@ -235,6 +239,7 @@ body {
   .decor-spark,
   .decor-badge,
   .decor-wave,
+  .hero-character,
   .hero-gradient,
   .projects-gradient,
   .next-gradient,

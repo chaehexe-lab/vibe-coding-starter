@@ -59,25 +59,25 @@ export default function Home() {
         </div>
         <div className="relative z-10 mx-auto max-w-6xl">
           <nav className="relative flex min-h-14 items-center justify-end rounded-full border border-carbon-black bg-paper-white px-5 py-3 shadow-subtle">
-            <span className="name-sticker absolute left-1/2 flex items-center gap-2 text-heading font-bold tracking-tight">
-              이채희
-              <Image
-                src="/images/chaehee-character.png"
-                alt="이채희 캐릭터"
-                width={36}
-                height={36}
-                priority
-                className="h-9 w-9 rounded-full border border-carbon-black bg-paper-white object-cover"
-              />
-            </span>
+            <span className="name-sticker absolute left-1/2 text-heading font-bold tracking-tight">이채희</span>
             <span className="hidden rounded-full bg-lime-pulse px-4 py-2 text-body-sm font-bold sm:inline-block">Industrial Engineering</span>
           </nav>
 
           <div className="relative mx-auto mt-20 max-w-4xl text-center sm:mt-28">
             <span className="inline-block rounded-full border border-carbon-black bg-paper-white px-4 py-2 text-body-sm">부산대학교 산업공학과</span>
-            <h1 className="hero-title mt-6 text-5xl font-bold leading-[1.08] tracking-[-0.04em] sm:text-display-xl">
-              데이터와 기술로<br />아이디어를 현실로.
-            </h1>
+            <div className="mt-6 flex flex-col items-center justify-center gap-5 sm:flex-row sm:gap-8">
+              <h1 className="hero-title text-5xl font-bold leading-[1.08] tracking-[-0.04em] sm:text-display-xl">
+                안녕하세요<br />이채희입니다.
+              </h1>
+              <Image
+                src="/images/chaehee-character.png"
+                alt="이채희 캐릭터"
+                width={144}
+                height={144}
+                priority
+                className="hero-character h-32 w-32 object-contain mix-blend-multiply sm:h-40 sm:w-40"
+              />
+            </div>
             <p className="mx-auto mt-7 max-w-2xl text-subheading leading-8 sm:text-heading-sm">{profile.tagline}</p>
             <div className="decor-spark absolute -left-14 top-16 hidden rounded-2xl border border-carbon-black bg-buttercream px-5 py-4 text-heading shadow-subtle-4 lg:block">✦</div>
             <div className="decor-badge absolute -right-16 bottom-0 hidden rounded-full border border-carbon-black bg-paper-white px-5 py-4 text-heading shadow-subtle lg:block">IE</div>
